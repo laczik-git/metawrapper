@@ -4,6 +4,7 @@ Make sure you have Metawrap installed in an Anaconda environment (https://github
 
 ## Installation of prerequironments
 conda create -n metawrap -c ursky metawrap-mg
+
 conda create -n gtdbtk -c bioconda gtdbtk
 
 ## Usage 

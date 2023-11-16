@@ -14,7 +14,7 @@ Help()
     echo "File options:"
     echo
     echo "-1 --> path and name of the fastq file with all forward read of all the samples"
-    echo "-2 --> path and name of the fastq file with all forward read of all the samples"
+    echo "-2 --> path and name of the fastq file with all reverse read of all the samples"
     echo "-r --> path to the individual fastq files of all the samples"
     echo
     echo "Anaconda environments:"

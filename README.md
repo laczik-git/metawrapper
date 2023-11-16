@@ -2,7 +2,7 @@
 This simple bash script fully automates the MetaWRAP pipeline from metagenome assembly until bin classification. This pipeline does not run the Kraken2 and the bin reassembly modules if you need them run them separately or feel free to implement them into the script.
 Make sure you have Metawrap installed in an Anaconda environment (https://github.com/bxlab/metaWRAP)! You will also need GTDB-tk (https://github.com/Ecogenomics/GTDBTk) to fully utilize the power of the script. 
 
-## Installation of prerequironments
+## Installation of pre requirements
 
 conda create -n metawrap -c ursky metawrap-mg
 

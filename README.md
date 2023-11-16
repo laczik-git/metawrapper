@@ -3,14 +3,18 @@ This simple bash script fully automates the MetaWRAP pipeline from metagenome as
 Make sure you have Metawrap installed in an Anaconda environment (https://github.com/bxlab/metaWRAP)! You will also need GTDB-tk (https://github.com/Ecogenomics/GTDBTk) to fully utilize the power of the script. 
 
 ## Installation of prerequironments
+
 conda create -n metawrap -c ursky metawrap-mg
 
 conda create -n gtdbtk -c bioconda gtdbtk
 
 ## Usage 
-bash metawrap_pipeline.sh
 
-## Mandatory arguments: -1; -2; -r; -m; -g; -c; -k
+bash metawrap_pipeline.sh [options]
+
+## Mandatory arguments: 
+
+-1; -2; -r; -m; -g; -c; -k
     
     ### File options:
     

@@ -16,7 +16,7 @@ bash metawrap_pipeline.sh [options]
 
 -1; -2; -r; -m; -g; -c; -k
     
-    ### File options:
+### File options:
     
     -1 --> path and name of the fastq file with all forward read of all the samples
     -2 --> path and name of the fastq file with all reverse read of all the samples
